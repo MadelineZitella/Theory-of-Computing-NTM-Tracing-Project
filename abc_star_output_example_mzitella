@@ -1,0 +1,118 @@
+Machine: a*b*c* Nondeterministic
+Input: aaaaabcccccc
+Depth of configuration tree: 13
+Total transitions simulated: 81
+Total configurations explored: 81
+Degree of nondeterminism: 1.59
+String accepted in 13 transitions
+
+Configuration Tree:
+Depth 0:
+[], [q0], [aaaaabcccccc]
+
+Depth 1:
+[a], [q0], [aaaabcccccc]
+[a], [q1], [aaaabcccccc]
+[a], [q2], [aaaabcccccc]
+[a], [q3], [aaaabcccccc]
+
+Depth 2:
+[aa], [q0], [aaabcccccc]
+[aa], [q1], [aaabcccccc]
+[aa], [q2], [aaabcccccc]
+[aa], [q3], [aaabcccccc]
+[a], [qrej], [aaaabcccccc]
+[a], [qrej], [aaaabcccccc]
+[a], [qrej], [aaaabcccccc]
+
+Depth 3:
+[aaa], [q0], [aabcccccc]
+[aaa], [q1], [aabcccccc]
+[aaa], [q2], [aabcccccc]
+[aaa], [q3], [aabcccccc]
+[aa], [qrej], [aaabcccccc]
+[aa], [qrej], [aaabcccccc]
+[aa], [qrej], [aaabcccccc]
+
+Depth 4:
+[aaaa], [q0], [abcccccc]
+[aaaa], [q1], [abcccccc]
+[aaaa], [q2], [abcccccc]
+[aaaa], [q3], [abcccccc]
+[aaa], [qrej], [aabcccccc]
+[aaa], [qrej], [aabcccccc]
+[aaa], [qrej], [aabcccccc]
+
+Depth 5:
+[aaaaa], [q0], [bcccccc]
+[aaaaa], [q1], [bcccccc]
+[aaaaa], [q2], [bcccccc]
+[aaaaa], [q3], [bcccccc]
+[aaaa], [qrej], [abcccccc]
+[aaaa], [qrej], [abcccccc]
+[aaaa], [qrej], [abcccccc]
+
+Depth 6:
+[aaaaab], [q1], [cccccc]
+[aaaaab], [q2], [cccccc]
+[aaaaab], [q3], [cccccc]
+[aaaaab], [q1], [cccccc]
+[aaaaab], [q2], [cccccc]
+[aaaaab], [q3], [cccccc]
+[aaaaa], [qrej], [bcccccc]
+[aaaaa], [qrej], [bcccccc]
+
+Depth 7:
+[aaaaab], [qrej], [cccccc]
+[aaaaabc], [q2], [ccccc]
+[aaaaabc], [q3], [ccccc]
+[aaaaab], [qrej], [cccccc]
+[aaaaab], [qrej], [cccccc]
+[aaaaabc], [q2], [ccccc]
+[aaaaabc], [q3], [ccccc]
+[aaaaab], [qrej], [cccccc]
+
+Depth 8:
+[aaaaabcc], [q2], [cccc]
+[aaaaabcc], [q3], [cccc]
+[aaaaabc], [qrej], [ccccc]
+[aaaaabcc], [q2], [cccc]
+[aaaaabcc], [q3], [cccc]
+[aaaaabc], [qrej], [ccccc]
+
+Depth 9:
+[aaaaabccc], [q2], [ccc]
+[aaaaabccc], [q3], [ccc]
+[aaaaabcc], [qrej], [cccc]
+[aaaaabccc], [q2], [ccc]
+[aaaaabccc], [q3], [ccc]
+[aaaaabcc], [qrej], [cccc]
+
+Depth 10:
+[aaaaabcccc], [q2], [cc]
+[aaaaabcccc], [q3], [cc]
+[aaaaabccc], [qrej], [ccc]
+[aaaaabcccc], [q2], [cc]
+[aaaaabcccc], [q3], [cc]
+[aaaaabccc], [qrej], [ccc]
+
+Depth 11:
+[aaaaabccccc], [q2], [c]
+[aaaaabccccc], [q3], [c]
+[aaaaabcccc], [qrej], [cc]
+[aaaaabccccc], [q2], [c]
+[aaaaabccccc], [q3], [c]
+[aaaaabcccc], [qrej], [cc]
+
+Depth 12:
+[aaaaabcccccc], [q2], [_]
+[aaaaabcccccc], [q3], [_]
+[aaaaabccccc], [qrej], [c]
+[aaaaabcccccc], [q2], [_]
+[aaaaabcccccc], [q3], [_]
+[aaaaabccccc], [qrej], [c]
+
+Depth 13:
+[aaaaabcccccc], [qrej], [_]
+[aaaaabcccccc_], [qacc], [_]
+
