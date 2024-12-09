@@ -1,0 +1,55 @@
+Machine: a plus
+Input: aaaaaaaa
+Depth of configuration tree: 9
+Total transitions simulated: 26
+Total configurations explored: 26
+Degree of nondeterminism: 1.35
+String accepted in 9 transitions
+
+Configuration Tree:
+Depth 0:
+[], [q1], [aaaaaaaa]
+
+Depth 1:
+[a], [q1], [aaaaaaa]
+[a], [q2], [aaaaaaa]
+
+Depth 2:
+[aa], [q1], [aaaaaa]
+[aa], [q2], [aaaaaa]
+[a], [qreject], [aaaaaaa]
+
+Depth 3:
+[aaa], [q1], [aaaaa]
+[aaa], [q2], [aaaaa]
+[aa], [qreject], [aaaaaa]
+
+Depth 4:
+[aaaa], [q1], [aaaa]
+[aaaa], [q2], [aaaa]
+[aaa], [qreject], [aaaaa]
+
+Depth 5:
+[aaaaa], [q1], [aaa]
+[aaaaa], [q2], [aaa]
+[aaaa], [qreject], [aaaa]
+
+Depth 6:
+[aaaaaa], [q1], [aa]
+[aaaaaa], [q2], [aa]
+[aaaaa], [qreject], [aaa]
+
+Depth 7:
+[aaaaaaa], [q1], [a]
+[aaaaaaa], [q2], [a]
+[aaaaaa], [qreject], [aa]
+
+Depth 8:
+[aaaaaaaa], [q1], [_]
+[aaaaaaaa], [q2], [_]
+[aaaaaaa], [qreject], [a]
+
+Depth 9:
+[aaaaaaaa], [qreject], [_]
+[aaaaaaa], [q3], [_]
+
